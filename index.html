@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hizbullah Khalifa | Welcome</title>
+  <link id='favicon' rel="shortcut icon" href="./assets/images/logo.png" type="image/x-png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Enable class-based dark mode in Tailwind
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    .circle {
+      position: relative;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      transition: transform 0.3s ease;
+    }
+
+    .circle:hover { transform: scale(1.05); }
+
+    .logo {
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      background: url('profile.jpeg');
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      border: 4px solid #EA580C;
+    }
+
+    .text {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      animation: rotateText 10s linear infinite;
+    }
+
+    @keyframes rotateText {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    .text span {
+      position: absolute;
+      left: 50%;
+      font-size: 1.1em;
+      transform-origin: 0 110px;
+      text-shadow: 0 0 3px rgba(0,0,0,0.2);
+    }
+
+    /* Social icons container */
+    .social-icons {
+      margin-top: 1.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .social-icons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background-color: #EA580C;
+      color: white;
+      transition: background-color 0.3s ease, transform 0.25s ease;
+    }
+
+    .social-icons a:hover,
+    .social-icons a:focus-visible {
+      background-color: #fb923c;
+      transform: scale(1.1);
+      outline: none;
+    }
+  </style>
+</head>
+
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
+
+  <div class="max-w-4xl mx-auto p-6 text-center relative">
+
+    <!-- Toggle Button -->
+    <button id="toggleMode" class="absolute top-5 right-5 p-3 bg-gray-200 dark:bg-gray-700 rounded-full shadow">
+      <i data-feather="moon" class="w-5 h-5 dark:hidden"></i>
+      <i data-feather="sun" class="w-5 h-5 hidden dark:inline"></i>
+    </button>
+
+    <!-- Animated Circle Logo Section -->
+    <div class="mt-10">
+      <div class="circle bg-orange-500 dark:bg-orange-600 shadow-lg">
+        <div class="logo"></div>
+        <div class="text">
+          <p>Hizbullah Khalifa - Web Developer - </p>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="text-4xl font-bold mt-6">Hi There, I'm <span class="text-orange-500">Hizbullah Khalifa</span></h1>
+    <h2 class="text-xl mt-2">I Am Into <span class="text-red-500">Web Developer & Tech Enthusiast</span></h2>
+
+    <a href="portfolio.html" class="inline-block mt-8 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded font-semibold transition">View My Portfolio</a>
+
+    <!-- Social Icons -->
+    <div class="social-icons" aria-label="Social media links">
+      <a href="https://www.facebook.com/khalifa.jani.5" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M22.675 0h-21.35C.594 0 0 .593 0 1.326v21.348C0 23.406.594 24 1.326 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.795.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.312h3.59l-.467 3.622h-3.123V24h6.116c.73 0 1.324-.594 1.324-1.326V1.326C24 .593 23.406 0 22.675 0z"/></svg>
+      </a>
+      <a href="https://wa.me/923499222174" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.918 11.918 0 0 1-1.62-6.003C.124 5.355 5.48 0 12.058 0c3.204 0 6.204 1.253 8.451 3.5a11.815 11.815 0 0 1 3.5 8.495c-.003 6.579-5.358 11.935-11.936 11.935a11.95 11.95 0 0 1-6.004-1.608L.057 24zm6.597-3.807c1.678.995 3.276 1.591 5.392 1.592 5.448 0 9.885-4.434 9.889-9.885.002-2.64-1.032-5.123-2.898-6.99-1.869-1.869-4.351-2.9-6.993-2.9-5.449 0-9.885 4.435-9.885 9.886 0 2.093.67 3.797 1.758 5.556l-.999 3.648 3.637-.95zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.148-1.758-.867-2.031-.967-.273-.099-.47-.148-.67.148-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.074-.297-.148-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.496.099-.198.05-.371-.025-.52-.075-.148-.67-1.611-.92-2.206-.242-.579-.487-.5-.67-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.148.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" /></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/hizbullah-khalifa/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.23 8.53H4.7v12.9H.23V8.53zm7.17 0h4.3v1.76h.06c.6-1.13 2.06-2.33 4.24-2.33 4.53 0 5.36 2.98 5.36 6.85v7.63h-4.53v-6.76c0-1.61-.03-3.68-2.24-3.68-2.24 0-2.58 1.75-2.58 3.55v6.89H7.4v-12.2z"/></svg>
+      </a>
+      <a href="" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.11.82-.258.82-.577v-2.234c-3.338.726-4.033-1.415-4.033-1.415-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.304 3.495.997.108-.776.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.931 0-1.309.465-2.381 1.235-3.221-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.047.138 3.003.404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.241 2.873.118 3.176.77.84 1.233 1.912 1.233 3.221 0 4.61-2.804 5.628-5.475 5.922.43.37.823 1.102.823 2.222v3.293c0 .322.218.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      </a>
+    </div>
+
+    <footer class="mt-16 text-gray-500 text-sm dark:text-gray-400">
+      © 2025 Hizbullah Khalifa. All rights reserved.
+    </footer>
+
+  </div>
+
+  <script>
+    // Rotate Text Setup
+    const text = document.querySelector('.text p');
+    text.innerHTML = text.innerText.split("").map(
+      (char, i) =>
+      `<span style="transform:rotate(${i * 9.2}deg)">${char}</span>`
+    ).join("");
+
+    // Feather Icons Init
+    feather.replace();
+
+    // Dark/Light Mode Toggle with persistence
+    const toggleBtn = document.getElementById('toggleMode');
+    const htmlEl = document.documentElement;
+
+    // Load saved mode or system preference
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      htmlEl.classList.add('dark');
+    } else {
+      htmlEl.classList.remove('dark');
+    }
+
+    // Toggle and save
+    toggleBtn.addEventListener('click', () => {
+      htmlEl.classList.toggle('dark');
+      if (htmlEl.classList.contains('dark')) {
+        localStorage.theme = 'dark';
+      } else {
+        localStorage.theme = 'light';
+      }
+      feather.replace(); // Refresh icons
+    });
+  </script>
+</body>
+</html>
