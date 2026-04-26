@@ -1,12 +1,12 @@
-# 💼 Shehriyar Ali Rustam — Personal Portfolio Website
+# 💼 Hizbullah Khalifa — Personal Portfolio Website
 
-Welcome to the official portfolio website of **Shehriyar Ali Rustam** — a Software Engineering student passionate about **Web Development**, **Graphic Design**, and **AI & ML**.
+Welcome to the official portfolio website of **Hizbullah Khalifa** — a Software Engineering student passionate about **Web Development**, **Graphic Design**, and **AI & ML**.
 
 This portfolio serves as a digital resume to showcase my skills, projects, experiences, and educational background, while offering an interactive and responsive design built from scratch using HTML, CSS, JavaScript, and additional libraries.
 
 ## 🔗 Live Preview
 
-🌍 [Visit My Portfolio](https://shehriyar-ali-rustam.github.io/Updated-Personal-Portfolio/)
+🌍 [Visit My Portfolio](https://hizbullahkhalifa.github.io/Updated-Personal-Portfolio/)
 📄 [Download Resume](./myresume.pdf)
 
 ---
@@ -53,11 +53,11 @@ This portfolio serves as a digital resume to showcase my skills, projects, exper
 
 ## ✍️ Author
 
-**Shehriyar Ali Rustam**
-📧 [shehriyarali122@gmail.com](mailto:shehriyarali122@gmail.com)
+**Hizbullah Khalifa**
+📧 [hizbullahkhalifa134@gmail.com](mailto:hizbullahkhalifa134@gmail.com)
 📍 Islamabad, Pakistan
-🔗 [LinkedIn](https://www.linkedin.com/in/shehriyar-ali-rustam-516895246/)
-🐙 [GitHub](https://github.com/Shehriyar-Ali-Rustam)
+🔗 [LinkedIn](https://www.linkedin.com/in/hizbullah-khalifa516895246/)
+🐙 [GitHub](https://github.com/hizbullah-khalifa)
 
 ---
 
@@ -66,7 +66,7 @@ This portfolio serves as a digital resume to showcase my skills, projects, exper
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Shehriyar-Ali-Rustam/your-repo-name.git
+   git clone https://github.com/hizbullah-khalifa/your-repo-name.git
    ```
 2. Open `index.html` in your browser.
 3. You can edit the content in the HTML or style it further using `style.css`.
